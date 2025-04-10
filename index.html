@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Domain for Sale</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #007BFF;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+      margin: 20px;
+      color: #333;
+    }
+
+    h1 {
+      color: #007BFF;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 16px;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #00FFFF; /* Electric Blue */
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      width: 100%;
+    }
+
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+
+    .contact-info a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .buy-button button {
+      background-color: #ff6600; /* Namecheap orange */
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .buy-button button:hover {
+      background-color: #e65c00;
+    }
+
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      input, textarea, button {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Domain for Sale</h1>
+    <p>This domain is currently available for purchase. Please fill out the form below to express your interest.</p>
+
+    <div class="price">
+      <p style="color: lightseagreen"><strong>Asking Price:</strong> $3000 (USD)</p>
+    </div>
+
+    <form action="https://formsubmit.co/muhammadayyanhussain45@gmail.com" method="POST" autocomplete="off">
+      <!-- ✅ Security settings -->
+      <input type="hidden" name="_subject" value="Domain Inquiry Message">
+      <input type="hidden" name="_template" value="box">
+
+      <!-- ✅ Honeypot field to trap bots -->
+      <input type="text" name="_honey" style="display:none">
+
+      <!-- ✅ Form fields with restrictions -->
+      <input type="text" name="first_name" placeholder="First Name" maxlength="40" pattern="[A-Za-z\s]+" required>
+      <input type="text" name="last_name" placeholder="Last Name" maxlength="40" pattern="[A-Za-z\s]+" required>
+      <input type="email" name="email" placeholder="Your Email" maxlength="100" required>
+      <input type="text" name="country" placeholder="Country" maxlength="50" pattern="[A-Za-z\s]+" required>
+      <textarea name="message" placeholder="Your Comment" maxlength="500" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:muhammadayyanhussain45@gmail.com">muhammadayyanhussain45@gmail.com</a></p>
+    </div>
+    <div class="buy-button">
+      <a href="https://www.namecheap.com/domains/registration/results/?domain=robowarfare.com" target="_blank">
+        <button type="button">Buy Now on Namecheap</button>
+      </a>
+    </div>
+    
+    <div class="footer">
+      <p>This domain is listed for sale and is available for purchase immediately.</p>
+    </div>
+  </div>
+
+</body>
+</html>
